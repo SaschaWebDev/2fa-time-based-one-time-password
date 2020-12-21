@@ -4,7 +4,8 @@
   "description": "A small project to fiddle around with two factor authentication in the context of time based one-time passwords also called totp.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "node index",
+    "server": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/SaschaWebDev/2fa-time-based-one-time-password#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node-json-db": "^1.1.0",
     "speakeasy": "^2.0.0",
